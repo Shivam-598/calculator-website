@@ -1,13 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     background-color: rgb(255, 233, 214);
     color: white;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,12 +14,86 @@
     height: 720px;
 }
 
-.calculatorBox{
+.calculatorBox {
     background-color: rgb(52, 52, 52);
     color: orange;
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     border-radius: 8%;
 }
 
+.screenShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.display {
+    background-color: grey;
+    color: white;
+    width: 270px;
+    height: 90px;
+    margin-top: 18px;
+    margin-left: 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+.allButtons {
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.buttons {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: grey;
+    border: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    /* cursor: pointer; */
+    cursor:grab;
+}
+
+.orangeSign{
+    background-color: orange;
+}
+
+.zero{
+   width: 130px;
+   border-radius: 80px;
+
+}
+
+.minusSign{
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+.addSign{
+    font-size: 35px;
+}
+
+.multiplySign{
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.del{
+    font-size: 18px;
+    padding-top: 2px;
+    padding-left: 2px;
+}
